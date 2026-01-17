@@ -92,3 +92,83 @@ titanic-survival-prediction/
 ├── titanic_ml.ipynb       # Model implementation
 ├── titanic_ml.py          # (optional) Python script
 └── README.md              # Project documentation
+
+▶️ How to Run the Project
+
+Clone the repository:
+
+git clone https://github.com/Nandan0402/titanic-survival-prediction.git
+
+
+Navigate to the project directory:
+
+cd titanic-survival-prediction
+
+
+Install required libraries:
+
+pip install pandas numpy scikit-learn matplotlib seaborn
+
+
+Run the project:
+
+python titanic_ml.py
+
+
+(or open and run the Jupyter Notebook)
+
+📈 Model Evaluation
+
+The model performance is evaluated using:
+
+📊 Accuracy Score
+
+📉 Confusion Matrix
+
+📋 Classification Report
+
+Higher accuracy indicates better survival prediction.
+
+🎯 Learning Outcomes
+
+Understanding data preprocessing techniques
+
+Working with categorical and numerical features
+
+Implementing Logistic Regression
+
+Evaluating classification models
+
+Gaining end-to-end ML project experience
+
+📌 Use Cases
+
+🎓 Academic mini / major project submission
+💼 Entry-level Machine Learning portfolio
+🧠 Classification concept practice
+
+👤 Author
+<p align="center"> <img src="https://avatars.githubusercontent.com/Nandan0402" width="120" style="border-radius: 50%;" /> </p> <p align="center"> <b>Nandan B</b><br> BCA Student | Machine Learning Enthusiast </p> <p align="center"> 🌐 <a href="https://github.com/Nandan0402">GitHub</a> | 💼 <a href="https://www.linkedin.com/in/nandan-b-2a9b1b334/">LinkedIn</a> </p>
+⭐ Conclusion
+
+This project focuses on strong Machine Learning fundamentals, making it ideal for students and beginners to understand how classification models work in real-world scenarios.
+
+⭐ If you find this project useful, please star the repository.
+
+
+---
+
+## ✅ RESULT
+After using this README, your Titanic project will:
+- Look **as polished as your Salary Prediction project**
+- Be **college & viva ready**
+- Look **portfolio-grade**
+- Match **modern GitHub standards**
+
+If you want next, I can:
+- Align **both projects visually**
+- Add **badges & GitHub stats**
+- Write a **LinkedIn post for Titanic**
+- Prepare **viva Q&A**
+
+Just tell me what you want next.
