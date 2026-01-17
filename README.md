@@ -83,7 +83,7 @@ The dataset used is **`train.csv`** (Titanic Dataset).
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
 ```text
 titanic-survival-prediction/
