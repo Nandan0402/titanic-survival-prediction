@@ -1,160 +1,94 @@
-# 🚢 Titanic Survival Prediction
+# 🚢 Titanic Survival Prediction using Machine Learning 📊
 
 <p align="center">
-  <img src="profile.jpg" width="150" />
+  <img src="https://img.icons8.com/color/96/artificial-intelligence.png"/>
+  <img src="https://img.icons8.com/color/96/python.png"/>
+  <img src="https://img.icons8.com/color/96/combo-chart--v1.png"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nandan-b-2a9b1b334/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/Nandan0402" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
+  <b>A simple, clean, and beginner-friendly Machine Learning project using Classification</b>
 </p>
 
 ---
 
-## 🎯 Project Overview
-📊 This project predicts whether a passenger **survived the Titanic disaster** using **Machine Learning**.  
-It is a classic **binary classification problem** that demonstrates a complete end-to-end ML workflow.
+## 🚀 Project Overview
+
+This project implements a **Titanic Survival Prediction System** using fundamental  
+**Machine Learning concepts** and **Logistic Regression**.
+
+The model is developed using **Python, NumPy, Pandas, and Scikit-learn**, focusing on understanding the **complete ML workflow** including data preprocessing, analysis, model training, and evaluation.
+
+### Suitable for:
+- 🎓 College mini / major projects  
+- 💡 Beginners in Machine Learning  
+- 🧠 Understanding classification algorithms  
+- 💼 GitHub & LinkedIn portfolios  
 
 ---
 
-## 🧠 Machine Learning Model
-- 🔹 **Algorithm Used:** Logistic Regression  
-- 🔹 **Problem Type:** Classification  
-- 🔹 **Target Variable:** Survival  
-  - `0` → Not Survived  
-  - `1` → Survived  
+## 🧠 Problem Statement
+
+During the Titanic disaster, not all passengers had equal chances of survival.
+
+Predicting survival is important for:
+- Understanding historical patterns  
+- Learning decision-making using data  
+- Applying classification techniques  
+
+Manual analysis is complex.  
+👉 **Machine Learning helps predict survival outcomes using passenger data.**
 
 ---
 
-## 📂 Dataset
-🗃️ The project uses the **Titanic dataset (`train.csv`)**, which contains passenger information such as:
+## 📂 Dataset Information
 
-- 👨‍👩‍👧 Passenger Class  
-- 🚻 Gender  
-- 🎂 Age  
-- 👪 Siblings / Spouse  
-- 🧓 Parents / Children  
-- 💰 Fare  
-- 🌍 Port of Embarkation  
-- ✅ Survival Status (Target)
+The dataset used is **`train.csv`** (Titanic Dataset).
+
+### 📄 Columns Description
+
+| Column | Description |
+|------|------------|
+| 🆔 PassengerId | Unique passenger ID |
+| 🚢 Pclass | Passenger class (1st, 2nd, 3rd) |
+| 🚻 Sex | Gender |
+| 🎂 Age | Passenger age |
+| 👪 SibSp | Siblings / Spouse aboard |
+| 🧓 Parch | Parents / Children aboard |
+| 💰 Fare | Ticket fare |
+| 🌍 Embarked | Port of embarkation |
+| ✅ Survived | Survival status (Target) |
 
 ---
 
 ## 🛠️ Technologies Used
-- 🐍 Python  
-- 📊 Pandas  
-- 🔢 NumPy  
-- 📈 Matplotlib  
-- 🎨 Seaborn  
-- 🤖 Scikit-learn  
 
----
-
-## 🔄 Project Workflow
-1️⃣ Data Loading  
-2️⃣ Data Cleaning  
-3️⃣ Exploratory Data Analysis (EDA)  
-4️⃣ Feature Encoding  
-5️⃣ Train-Test Split  
-6️⃣ Model Training  
-7️⃣ Model Evaluation  
-8️⃣ Prediction  
-
----
-
-## 📊 Exploratory Data Analysis & Visualizations
-
-Below are some of the key visualizations generated during analysis:
-
-### 📌 Survival Count
-Shows the number of passengers who survived vs not survived.
-
-<p align="center">
-  <img src="images/survival_count.png" width="500"/>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
 </p>
 
 ---
 
-### 📌 Survival by Gender
-Highlights how gender affected survival chances.
+## 🧠 Methodology
 
-<p align="center">
-  <img src="images/survival_by_gender.png" width="500"/>
-</p>
-
----
-
-### 📌 Survival by Passenger Class
-Demonstrates the impact of passenger class on survival.
-
-<p align="center">
-  <img src="images/survival_by_class.png" width="500"/>
-</p>
+- 📥 Load the dataset using Pandas  
+- 🧹 Handle missing values and clean data  
+- 🔄 Encode categorical variables  
+- 📐 Apply **Logistic Regression**  
+- 🧪 Split data into training and testing sets  
+- 📊 Evaluate model using accuracy and confusion matrix  
 
 ---
-
-### 📌 Age Distribution
-Displays the age distribution of passengers on the Titanic.
-
-<p align="center">
-  <img src="images/age_distribution.png" width="500"/>
-</p>
-
----
-
-### 📌 Confusion Matrix
-Evaluates model performance by comparing actual vs predicted values.
-
-<p align="center">
-  <img src="images/confusion_matrix.png" width="400"/>
-</p>
-
----
-
-## 📈 Evaluation Metrics
-📌 Accuracy Score  
-📌 Confusion Matrix  
-📌 Classification Report  
-
----
-
-## ✅ Output
-🎯 The trained model predicts whether a passenger **Survived** or **Did Not Survive** based on input features.
-
----
-
-titanic-survival-prediction/
-│
-├── 📄 train.csv
-├── 📘 titanic_ml.ipynb (or titanic_ml.py)
-├── 📝 README.md
-
-
----
-
-## 🎓 Use Cases
-✔ Academic Mini / Major Project  
-✔ Machine Learning Practice  
-✔ Data Science Portfolio  
-✔ GitHub Showcase  
-
----
-
-## 👤 Author
-👨‍💻 **Nandan B**  
-🎓 BCA Student | Machine Learning Enthusiast  
-
-🌐 GitHub: https://github.com/Nandan0402  
-💼 LinkedIn: https://www.linkedin.com/in/nandan-b-2a9b1b334/
-
----
-
-## 📌 Note
-📚 This project is created for educational purposes and demonstrates a complete Machine Learning pipeline from data preprocessing to model evaluation.
-
 
 ## 📁 Project Structure
+
+```text
+titanic-survival-prediction/
+│
+├── train.csv              # Dataset file
+├── titanic_ml.ipynb       # Model implementation
+├── titanic_ml.py          # (optional) Python script
+└── README.md              # Project documentation
