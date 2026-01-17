@@ -79,18 +79,8 @@ The dataset used is **`train.csv`** (Titanic Dataset).
 - 🔄 Encode categorical variables  
 - 📐 Apply **Logistic Regression**  
 - 🧪 Split data into training and testing sets  
-- 📊 Evaluate model using accuracy and confusion matrix  
-
----
-
-📁 Project Structure
-
-```text
-titanic-survival-prediction/
-│
-├── train.csv              # Dataset file
-├── titanic_ml.ipynb       # Model implementation
-└── README.md              # Project documentation
+- 📊 Evaluate model using accuracy and confusion matrix
+- 
 ---
 ▶️ How to Run the Project
 1️⃣ Clone the repository
@@ -154,3 +144,12 @@ Gaining end-to-end ML project experience
 This project focuses on strong Machine Learning fundamentals, making it ideal for students and beginners to understand how classification models work in real-world scenarios.
 
 ⭐ If you find this project useful, please star the repository.
+
+📁 Project Structure
+
+```text
+titanic-survival-prediction/
+│
+├── train.csv              # Dataset file
+├── titanic_ml.ipynb       # Model implementation
+└── README.md              # Project documentation
